@@ -5,10 +5,10 @@ It is a small api for view deleting and psting notes which as it ui at [notes ap
 ## How to use it
 
 -   Ensure your have install composer **[composer download](https://getcomposer.org/download/)** Then write _composer install_ on your terminal after navigating to the directory with the pulled repository
--   Pull the repo from github **[blog-api](https://github.com/edcheyjr/blog-api.git)**
+-   Pull the repo from github **[notes-api](https://github.com/edcheyjr/notes-api.git)**
 -   Copy the contents in env.example to env
 -   The `.env` looks something like this
--   Make sure that you change the `FRONTEND_URL` is "http://localhost:5173/"
+-   Make sure set your `FRONTEND_URL` key to exact Url of the frontend application e.g "http://localhost:5173/"
 
     ```
         APP_NAME=Laravel
@@ -75,10 +75,6 @@ It is a small api for view deleting and psting notes which as it ui at [notes ap
     ```
 
 -   Generate your **APP_KEY** by typing this on your terminal `php artisan key:generate`
--   Generate your **JWT** by typing this on your terminal `php artisan jwt:secret`
-
--   ### Use **[postman](https://web.postman.co/)** to view endpoints
--   Use **[postman](https://web.postman.co/)** or any other platform for API development to view endpoints
 
 ## End Points
 
