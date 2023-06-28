@@ -8,13 +8,14 @@ It is a small api for view deleting and psting notes which as it ui at [notes ap
 -   Pull the repo from github **[blog-api](https://github.com/edcheyjr/blog-api.git)**
 -   Copy the contents in env.example to env
 -   The `.env` looks something like this
+-   Make sure that you change the `APP_URL` is "http://localhost:5173/"
 
     ```
     APP_NAME=Laravel
     APP_ENV=local
     APP_KEY=
     APP_DEBUG=true
-    APP_URL=http://localhost
+    APP_URL=http://localhost:5173/
 
     LOG_CHANNEL=stack
     LOG_DEPRECATIONS_CHANNEL=null
