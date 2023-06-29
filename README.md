@@ -78,6 +78,7 @@ It is a small api for view deleting and psting notes which as it ui at [notes ap
 -   Generate your **APP_KEY** by typing this on your terminal `php artisan key:generate`
 
 -   Once that is done run migrations and start the applicaion
+    You can run `php artisan migrate:fresh` if you don't want the application seeded with values or `php artisan migrate:fresh --seed --seeder=NoteSeeder ` to seed with values
 
 ```
     php artisan migrate:fresh --seed --seeder=NoteSeeder
