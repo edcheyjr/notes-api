@@ -5,6 +5,7 @@ It is a small api for view deleting and psting notes which as it ui at [notes ap
 ## How to use it
 
 -   Ensure your have install composer **[composer download](https://getcomposer.org/download/)** Then write _composer install_ on your terminal after navigating to the directory with the pulled repository
+-   clone and run git **pull** for any cahnges
 -   Pull the repo from github **[notes-api](https://github.com/edcheyjr/notes-api.git)**
 -   Copy the contents in env.example to env
 -   The `.env` looks something like this
