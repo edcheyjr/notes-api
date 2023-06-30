@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Log;
+use Symfony\Component\Console\Output\ConsoleOutput;
 
 class NoteSeeder extends Seeder
 {
@@ -13,8 +14,11 @@ class NoteSeeder extends Seeder
      */
     public function run(): void
     {
+        $file_path ="database/sample/seeder.json";
+        $success_message = "Successfully seed notes to the database ";
+        $output = new ConsoleOutput();
 
-        $json = File::get("database/sample/seeder.json");
+        $json = File::get($file_path);
         $data = json_decode($json);
         $collection = collect($data);
         $randomized_data = $collection->shuffle();
@@ -29,6 +33,8 @@ class NoteSeeder extends Seeder
 
 
         //success message
-        Log::info("Successfully seed notes to the database ");
+        Log::info($success_message,["PATH:"=>$file_path]);
+        $output->writeln("<info>".$success_message."</info>\n");
+
     }
 }
