@@ -12,7 +12,7 @@ class NoteController extends Controller{
      * Get a list of notes
      */
     public function index (Request $request): JsonResponse {
-        $notes = Note::all();
+        $notes = Note::all(); //TODO: Add sort by date created or updated where update come first in priorty
         return response()->json($notes);
     } 
     /**
