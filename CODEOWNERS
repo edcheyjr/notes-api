@@ -2,12 +2,12 @@
 * @edcheyjr
 
 # Exclude composer.json and composer.lock from code owner requirement
-!/composer.json @edcheyjr
-!/composer.lock @edcheyjr
+composer.json 
+composer.lock
 
 # Exclude .env from code owner requirement (usually contains sensitive information)
-!/.env @edcheyjr
+.env 
 
 # Exclude public/js and public/css directories from code owner requirement
-/public/js/* @edcheyjr
-/public/css/* @edcheyjr
+/public/js/*
+/public/css/*
