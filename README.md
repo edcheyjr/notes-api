@@ -1,13 +1,13 @@
 ## About Notes Api
 
-It is a small api for view deleting and psting notes which as it ui at [notes app](https://github.com/edcheyjr/notes-app.git)
+It is a small api for view deleting and posting notes which as it ui at [notes app](https://github.com/edcheyjr/notes-app.git)
 
 ## How to use it
 
--   Ensure your have install composer **[composer download](https://getcomposer.org/download/)** Then write _composer install_ on your terminal after navigating to the directory with the pulled repository
+-   Ensure you have install composer **[composer download](https://getcomposer.org/download/)** Then write _composer install_ on your terminal after navigating to the directory with the pulled repository
 -   clone and run git **pull** for any cahnges
 -   Pull the repo from github **[notes-api](https://github.com/edcheyjr/notes-api.git)**
--   Copy the contents in env.example to env
+-   Copy the contents in `env.example` to env
 -   The `.env` looks something like this
 -   Make sure set your `FRONTEND_URL` key to exact Url of the frontend application e.g "http://localhost:5173/"
 
